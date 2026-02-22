@@ -1,0 +1,9 @@
+{
+  "crons": [
+    {
+      "path": "/api/generate-combinations",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
+

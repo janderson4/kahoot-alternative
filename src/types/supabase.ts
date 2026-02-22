@@ -244,6 +244,42 @@ export type Database = {
         }
         Relationships: []
       }
+      people: {
+        Row: {
+          id: string
+          name: string
+          image: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          image: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          image?: string
+        }
+        Relationships: []
+      }
+      generated: {
+        Row: {
+          id: string
+          name: string
+          image: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          image: string
+        }
+        Update: {
+          id?: string
+          name?: string
+          image?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       game_results: {
